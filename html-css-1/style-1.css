@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    display: inline-block;
+    background-color: rgb(255, 144, 163);
+}
+
+h1 {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 5vh;
+    font-size: 30px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+a {
+    margin: 10px
+}
+
+img {
+    width: 150px;
+}
+
+#html {
+    float: left;
+    clear: left;
+}
+
+#css {
+    float: right;
+    clear: right;
+}
+
+p {
+    font-size: 17px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: left;
+}
+
+main div {
+    border: dotted;
+    border-width: 5px;
+    margin: 5px;
+    height: 35vh;
+}
+
+footer div {
+    border: dotted;
+    border-width: 5px;
+    margin: 5px;
+    height: 45vh
+}

@@ -1,12 +1,12 @@
 //////////////////STEP 1////////////////////
 /* Create an array called 'groceries' that contains three grocery items of your choice as strings. */
 
-//CODE HERE
+let groceries = ['Avocados', 'Cereal', 'Code']
 
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
-//CODE HERE
+const yourName = 'Payton Kentch'
 
 //////////////////STEP 3////////////////////
 /*
@@ -16,7 +16,9 @@
     the function would return 'Joseph's Grocery List'.
 */
 
-//CODE HERE
+const setGroceryListTitle = (x) => {
+    return `${x}'s Grocery List`
+}
 
 //////////////////STEP 4////////////////////
 /* 
@@ -26,7 +28,10 @@
     that takes care of some of the work for getting your page to display correctly.
 */
 
-//CODE HERE
+const addItem = (item) => {
+    groceries.push(item)
+    displayData()
+}
 
 //////////////////STEP 5////////////////////
 /*
@@ -36,7 +41,10 @@
     Then, invoke the displayData() function inside of your removeItem function.
 */
 
-//CODE HERE
+const removeItem = (index) => {
+    groceries.splice(index, 1)
+    displayData()
+}
 
 //////////////////STEP 6////////////////////
 /*
@@ -49,7 +57,9 @@
     with NUMBEROFGROCERIES replaced by the number of items in your groceries array.
 */
 
-//CODE HERE
+const checkGroceryCount = () => {
+    return groceries.length > 5 ? 'That looks like a big trip' : groceries.length === 1 ?  '1 item' : `${groceries.length} items`
+}
 
 //////////////////Check out your code!////////////////////
 /*

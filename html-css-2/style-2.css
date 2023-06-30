@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 20px;
+}
+
+h2 {
+    margin-left: 10px;
+    margin-bottom: 0
+}
+
+h3 {
+    margin: 0 auto;
+    margin-left: 13px;
+    color: white;
+    
+}
+
+#header {
+background-color: aquamarine;
+height: 6vh;
+padding: 5px;
+box-sizing: content-box;
+}
+
+#rectangles {
+    height: 20vh;
+    width: calc(100vh - 35px);
+    border: dashed;
+    border-width: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#purple-box {
+    width: 200px;
+    height: 70px;
+    background-color: rgb(71, 0, 85);
+    border: solid;
+    border-color: red;
+    margin-top: 10%;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+#blue-box {
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    background-color: blue;
+    box-shadow: 5px 5px 5px 1px black;
+    display: inline-block;
+}
+
+#pink-box {
+    width: 150px;
+    height: 150px;
+    margin-left: 15px;
+    background-color: rgb(255, 122, 144);
+    border: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+
+#circles {
+    height: 34vh;
+    width: calc(100vh - 35px);
+    border: dashed;
+    border-width: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.snow {
+    border: solid;
+    border-width: 1px;
+    border-radius: 100%;
+}
+
+#snow-head {
+    width: 80px;
+    aspect-ratio: 1;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+.eyes {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#carrot {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+#snow-body {
+    width: 100px;
+    aspect-ratio: 1;
+    margin-left: 28px;
+}
+
+.bellybuttons {
+    display: block;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#snow-foot {
+    width: 120px;
+    aspect-ratio: 1;
+    margin-left: 18px;
+}
+
+#everything {
+    height: 22vh;
+    width: calc(100vh - 35px);
+    border: dashed;
+    border-width: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#yellow-box {
+    width: 200px;
+    height: 200px;
+    background-color: papayawhip;
+    margin: 5px;
+    border: solid;
+    border-width: 1px;
+}
+
+#green-circle {
+    width: 170px;
+    height: 170px;
+    background-color: green;
+    border: solid;
+    border-width: 1px;
+    border-radius: 100%
+}
+
+#red-box {
+    width: 110px;
+    height: 110px;
+    background-color: rgb(138, 31, 31);
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+#blue-circle {
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+    border-radius: 100%;
+}
+
+#fishy {
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}

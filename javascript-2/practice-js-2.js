@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+const gitDefinition = 'Git is software that lets us interact with cloud repositories hosted by github. It allows us to pull down repositories from the cloud, push changes we make to repositories to the cloud, and is a very commonly used application to do group programming.'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+const gitHubDefinition = 'GitHub is a service hosted by Microsoft that stores git repositories, and enables us to interface with those repositories using Git commands.'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+const init = {
+    description: 'creates a .git folder with configuration files for git, turning the directory into a git repository.',
+    code: 'git init'
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+const clone = {
+    description: 'Downloads a repository from github, enabling us to make changes to the repository locally, save our changes, and eventually push them back to the cloud repository.',
+    code: 'git clone git@github.com:exampleUser/exampleRepo'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +55,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+const status = {
+    description: 'Shows us which files have changes made to them, which files are ready to be committed, and how many commits ahead/behind we are from the cloud repo.',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +66,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+const add = {
+    description: 'Starts tracking the files listed after the command, and prepares the files to be committed.',
+    code: 'git add -A'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +77,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+const commit = {
+    description: 'Commits all of the changes to the git repository, so that when you push your repo back to the cloud, your changes go up there.',
+    code: 'git commit -m "(insert message here)"'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +88,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+const addRemote = {
+    description: 'Tells git which cloud repository you want your local repo to track. You have to set an origin, or a remote, so git knows where to push and pull changes from.',
+    code: 'git remote add origin git@github.com:exampleUser/exampleRepo.git'
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +99,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+const push = {
+    description: 'Pushes all of your committed changes from your local repo to the cloud repo.',
+    code: 'git push -u origin main'
+}
